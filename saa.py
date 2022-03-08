@@ -1,5 +1,5 @@
 print("Kerro huominen sääennuste:")
-lampo = int(input("Lämpötila: "))
+
 sade = (input("Sataako (kyllä/ei): "))
 
 print("Pue housut ja t-paita")
