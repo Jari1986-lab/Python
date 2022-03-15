@@ -8,7 +8,3 @@ if luku >= 100:
     print(f"Arvo on nyt {luku}")
 print(f"{luku} taitaa olla onnenlukuni!")
 print("Hyvää päivänjatkoa!")
-
-
-
- 
