@@ -27,7 +27,7 @@ if __name__ == "__main__":
  #   i = 0
   #  while i < koko:
    #     if i % 2 == 0:
-    3        rivi = "10"*koko
+    #        rivi = "10"*koko
      #   else:
       #      rivi = "01"*koko
         # poistetaan rivin lopusta ylimääräiset merkit
