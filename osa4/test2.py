@@ -1,2 +1,2 @@
-word = 'Hello World'
-print( max(word, key= lambda x: word.count(x)))
+lista = [[1,2,3],[4,5,6], [7,8,9]]
+print(lista[1][0])

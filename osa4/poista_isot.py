@@ -6,6 +6,8 @@ def poista_isot(lista):
                                 lista2.append(sana)
                                 break
         return lista2
-lista = ["ABC", "def", "ISO", "TOINENISO", "pieni", "toinen pieni", "Osittain Iso"]
-karsittu_lista = poista_isot(lista)
-print(karsittu_lista)
+
+if __name__ == "__main__":
+    lista = ["ABC", "def", "ISO", "TOINENISO", "pieni", "toinen pieni", "Osittain Iso"]
+    karsittu_lista = poista_isot(lista)
+    print(karsittu_lista)
