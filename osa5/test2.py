@@ -1,13 +1,10 @@
-a = 1
-b = 1
-summa = a + b
+def laske_alkiot(matriisi: list, alkio: int):
+    laske = 0
+    for i in matriisi:
+        for n in i:
+            if  n == alkio:
+                laske+=1
+    return laske
 
-print(f"{a} + {b} = {summa}")
-print(f"1 + 1 = ", end= "")
-print("1"+"1")
-print("1 + 1 =",1+1)
-
-c = int(input("Anna luku: "))
-d = int(input("Anna toinen luku: "))
-summa2 = c + d
-print (f"{c} + {d} = {summa2}")
+m = [[1, 2, 1], [0, 3, 4], [1, 0, 0]]
+print(laske_alkiot(m, 1))

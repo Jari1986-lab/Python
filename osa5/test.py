@@ -1,8 +1,9 @@
-def count_element(test, elements):
+def count_element(test, elelemnt):
     count = 0
     for i in test:
-        count += 1
+        if  i == elelemnt:
+            count+=1
     return count
 
-m = [1,2,3,3,4,3,6]
-print(count_element(m, 3))
+m = [1,2,3,3,4,3,6,3,2,1,2]
+print(count_element(m, 2))
