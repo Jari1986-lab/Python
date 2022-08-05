@@ -1,10 +1,21 @@
-def laske_alkiot(matriisi: list, alkio: int):
-    laske = 0
-    for i in matriisi:
-        for n in i:
-            if  n == alkio:
-                laske+=1
-    return laske
+def rivi_oikein(sudoku: list, rivi_nro: int):
+    for num in range(1,10):
+        for i in sudoku:
+            for rivi_nro in i:
+                if num == rivi_nro:
+                    return True
+                       
+sudoku = [
+  [9, 0, 0, 0, 8, 0, 3, 0, 0],
+  [2, 0, 0, 2, 5, 0, 7, 0, 0],
+  [0, 2, 0, 3, 0, 0, 0, 0, 4],
+  [2, 9, 4, 0, 0, 0, 0, 0, 0],
+  [0, 0, 0, 7, 3, 0, 5, 6, 0],
+  [7, 0, 5, 0, 6, 0, 4, 0, 0],
+  [0, 0, 7, 8, 0, 3, 9, 0, 0],
+  [0, 0, 1, 0, 0, 0, 0, 0, 3],
+  [3, 0, 0, 0, 0, 0, 0, 0, 2]
+]
 
-m = [[1, 2, 1], [0, 3, 4], [1, 0, 0]]
-print(laske_alkiot(m, 1))
+print(rivi_oikein(sudoku, 0))
+print(rivi_oikein(sudoku, 1))
