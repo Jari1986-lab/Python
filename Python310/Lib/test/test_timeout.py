@@ -2,7 +2,7 @@
 
 import functools
 import unittest
-from test import support
+from sudoku_rivi import support
 from test.support import socket_helper
 
 # This requires the 'network' resource as given on the regrtest command line.

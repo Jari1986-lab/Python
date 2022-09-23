@@ -5,7 +5,7 @@ import selectors
 import signal
 import socket
 import sys
-from test import support
+from sudoku_rivi import support
 from test.support import os_helper
 from test.support import socket_helper
 from time import sleep

@@ -3,7 +3,7 @@
 import __future__
 import ast
 import unittest
-from test import support
+from sudoku_rivi import support
 from test.support import import_helper
 from textwrap import dedent
 import os
@@ -26,56 +26,56 @@ class FutureTest(unittest.TestCase):
 
     def test_future1(self):
         with import_helper.CleanImport('future_test1'):
-            from test import future_test1
+            from sudoku_rivi import future_test1
             self.assertEqual(future_test1.result, 6)
 
     def test_future2(self):
         with import_helper.CleanImport('future_test2'):
-            from test import future_test2
+            from sudoku_rivi import future_test2
             self.assertEqual(future_test2.result, 6)
 
     def test_future3(self):
         with import_helper.CleanImport('test_future3'):
-            from test import test_future3
+            from sudoku_rivi import test_future3
 
     def test_badfuture3(self):
         with self.assertRaises(SyntaxError) as cm:
-            from test import badsyntax_future3
+            from sudoku_rivi import badsyntax_future3
         self.check_syntax_error(cm.exception, "badsyntax_future3", 3)
 
     def test_badfuture4(self):
         with self.assertRaises(SyntaxError) as cm:
-            from test import badsyntax_future4
+            from sudoku_rivi import badsyntax_future4
         self.check_syntax_error(cm.exception, "badsyntax_future4", 3)
 
     def test_badfuture5(self):
         with self.assertRaises(SyntaxError) as cm:
-            from test import badsyntax_future5
+            from sudoku_rivi import badsyntax_future5
         self.check_syntax_error(cm.exception, "badsyntax_future5", 4)
 
     def test_badfuture6(self):
         with self.assertRaises(SyntaxError) as cm:
-            from test import badsyntax_future6
+            from sudoku_rivi import badsyntax_future6
         self.check_syntax_error(cm.exception, "badsyntax_future6", 3)
 
     def test_badfuture7(self):
         with self.assertRaises(SyntaxError) as cm:
-            from test import badsyntax_future7
+            from sudoku_rivi import badsyntax_future7
         self.check_syntax_error(cm.exception, "badsyntax_future7", 3, 53)
 
     def test_badfuture8(self):
         with self.assertRaises(SyntaxError) as cm:
-            from test import badsyntax_future8
+            from sudoku_rivi import badsyntax_future8
         self.check_syntax_error(cm.exception, "badsyntax_future8", 3)
 
     def test_badfuture9(self):
         with self.assertRaises(SyntaxError) as cm:
-            from test import badsyntax_future9
+            from sudoku_rivi import badsyntax_future9
         self.check_syntax_error(cm.exception, "badsyntax_future9", 3)
 
     def test_badfuture10(self):
         with self.assertRaises(SyntaxError) as cm:
-            from test import badsyntax_future10
+            from sudoku_rivi import badsyntax_future10
         self.check_syntax_error(cm.exception, "badsyntax_future10", 3)
 
     def test_ensure_flags_dont_clash(self):
@@ -115,7 +115,7 @@ class FutureTest(unittest.TestCase):
 
     def test_multiple_features(self):
         with import_helper.CleanImport("test.test_future5"):
-            from test import test_future5
+            from sudoku_rivi import test_future5
 
     def test_unicode_literals_exec(self):
         scope = {}

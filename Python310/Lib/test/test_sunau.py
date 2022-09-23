@@ -1,5 +1,5 @@
 import unittest
-from test import audiotests
+from sudoku_rivi import audiotests
 from audioop import byteswap
 import io
 import struct

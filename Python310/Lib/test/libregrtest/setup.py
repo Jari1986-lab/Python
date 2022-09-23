@@ -4,7 +4,7 @@ import os
 import signal
 import sys
 import unittest
-from test import support
+from sudoku_rivi import support
 try:
     import gc
 except ImportError:

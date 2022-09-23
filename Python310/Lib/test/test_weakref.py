@@ -10,7 +10,7 @@ import threading
 import time
 import random
 
-from test import support
+from sudoku_rivi import support
 from test.support import script_helper, ALWAYS_EQ
 from test.support import gc_collect
 
@@ -1965,7 +1965,7 @@ class MappingTestCase(TestBase):
         self.assertIsNone(d._remove.__closure__)
 
 
-from test import mapping_tests
+from sudoku_rivi import mapping_tests
 
 class WeakValueDictionaryTestCase(mapping_tests.BasicTestMappingProtocol):
     """Check that WeakValueDictionary conforms to the mapping protocol"""

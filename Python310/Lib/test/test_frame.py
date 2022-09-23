@@ -4,7 +4,7 @@ import types
 import unittest
 import weakref
 
-from test import support
+from sudoku_rivi import support
 
 
 class ClearTest(unittest.TestCase):

@@ -17,7 +17,7 @@ except ImportError:
     ssl = None
 
 from unittest import TestCase, skipUnless
-from test import support
+from sudoku_rivi import support
 from test.support import threading_helper
 from test.support import socket_helper
 from test.support import warnings_helper

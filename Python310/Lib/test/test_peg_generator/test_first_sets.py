@@ -1,6 +1,6 @@
 import unittest
 
-from test import test_tools
+from sudoku_rivi import test_tools
 from typing import Dict, Set
 
 test_tools.skip_if_missing('peg_generator')

@@ -19,7 +19,7 @@ from array import array
 
 from operator import lt, le, gt, ge, eq, ne, truediv, floordiv, mod
 
-from test import support
+from sudoku_rivi import support
 from test.support import is_resource_enabled, ALWAYS_EQ, LARGEST, SMALLEST
 
 import datetime as datetime_module

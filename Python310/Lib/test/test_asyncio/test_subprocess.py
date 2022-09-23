@@ -9,7 +9,7 @@ import asyncio
 from asyncio import base_subprocess
 from asyncio import subprocess
 from test.test_asyncio import utils as test_utils
-from test import support
+from sudoku_rivi import support
 from test.support import os_helper
 
 if sys.platform != 'win32':

@@ -6,8 +6,8 @@ import shutil
 import tempfile
 from pathlib import Path
 
-from test import test_tools
-from test import support
+from sudoku_rivi import test_tools
+from sudoku_rivi import support
 from test.support import os_helper
 from test.support.script_helper import assert_python_ok
 

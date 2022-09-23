@@ -1,7 +1,7 @@
 import argparse
 import os
 import sys
-from test import support
+from sudoku_rivi import support
 from test.support import os_helper
 
 

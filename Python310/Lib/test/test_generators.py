@@ -6,7 +6,7 @@ import unittest
 import weakref
 import inspect
 
-from test import support
+from sudoku_rivi import support
 
 try:
     import _testcapi
@@ -2384,7 +2384,7 @@ __test__ = {"tut":      tutorial_tests,
 # Note that doctest and regrtest both look in sys.argv for a "-v" argument,
 # so this works as expected in both ways of running regrtest.
 def test_main(verbose=None):
-    from test import support, test_generators
+    from sudoku_rivi import support, test_generators
     support.run_unittest(__name__)
     support.run_doctest(test_generators, verbose)
 

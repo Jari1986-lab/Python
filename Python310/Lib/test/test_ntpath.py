@@ -6,7 +6,7 @@ import warnings
 from test.support import os_helper
 from test.support import TestFailed
 from test.support.os_helper import FakePath
-from test import test_genericpath
+from sudoku_rivi import test_genericpath
 from tempfile import TemporaryFile
 
 

@@ -605,7 +605,7 @@ def collect_resource(info_add):
 
 def collect_test_socket(info_add):
     try:
-        from test import test_socket
+        from sudoku_rivi import test_socket
     except ImportError:
         return
 
@@ -617,7 +617,7 @@ def collect_test_socket(info_add):
 
 def collect_test_support(info_add):
     try:
-        from test import support
+        from sudoku_rivi import support
     except ImportError:
         return
 

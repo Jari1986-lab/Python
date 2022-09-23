@@ -1,5 +1,5 @@
 # tests __main__ module handling in multiprocessing
-from test import support
+from sudoku_rivi import support
 from test.support import import_helper
 # Skip tests if _multiprocessing wasn't built.
 import_helper.import_module('_multiprocessing')

@@ -7,7 +7,7 @@ import struct
 import time
 import unittest
 
-from test import support
+from sudoku_rivi import support
 from test.test_grammar import (VALID_UNDERSCORE_LITERALS,
                                INVALID_UNDERSCORE_LITERALS)
 from math import isinf, isnan, copysign, ldexp

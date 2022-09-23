@@ -8,7 +8,7 @@
 # call succeeded, but also the script actually has run.
 
 import unittest
-from test import support
+from sudoku_rivi import support
 from test.support import os_helper
 import os
 import platform

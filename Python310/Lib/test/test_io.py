@@ -37,7 +37,7 @@ import warnings
 import weakref
 from collections import deque, UserList
 from itertools import cycle, count
-from test import support
+from sudoku_rivi import support
 from test.support.script_helper import (
     assert_python_ok, assert_python_failure, run_python_until_end)
 from test.support import import_helper

@@ -3,7 +3,7 @@ import re
 import sys
 import warnings
 from inspect import isabstract
-from test import support
+from sudoku_rivi import support
 from test.support import os_helper
 from test.libregrtest.utils import clear_caches
 

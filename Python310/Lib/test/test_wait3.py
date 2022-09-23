@@ -7,7 +7,7 @@ import sys
 import time
 import unittest
 from test.fork_wait import ForkWait
-from test import support
+from sudoku_rivi import support
 
 if not hasattr(os, 'fork'):
     raise unittest.SkipTest("os.fork not defined")

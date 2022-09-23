@@ -1,6 +1,6 @@
 import unittest
 import tkinter
-from test import support
+from sudoku_rivi import support
 from test.support import os_helper
 from tkinter.test.support import AbstractTkTest, AbstractDefaultRootTest, requires_tcl
 

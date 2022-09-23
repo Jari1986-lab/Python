@@ -6,7 +6,7 @@ import pathlib
 import pickle
 import random
 import sys
-from test import support
+from sudoku_rivi import support
 import unittest
 
 from test.support import _4G, bigmemtest

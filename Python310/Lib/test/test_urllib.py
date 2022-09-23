@@ -8,7 +8,7 @@ import email.message
 import io
 import unittest
 from unittest.mock import patch
-from test import support
+from sudoku_rivi import support
 from test.support import os_helper
 from test.support import warnings_helper
 import os

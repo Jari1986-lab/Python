@@ -6,7 +6,7 @@ import time
 import sys
 import unittest
 from test.fork_wait import ForkWait
-from test import support
+from sudoku_rivi import support
 
 # If either of these do not exist, skip this test.
 support.get_attribute(os, 'fork')

@@ -3,7 +3,7 @@ from contextlib import (
     asynccontextmanager, AbstractAsyncContextManager,
     AsyncExitStack, nullcontext, aclosing, contextmanager)
 import functools
-from test import support
+from sudoku_rivi import support
 import unittest
 
 from test.test_contextlib import TestBaseExitStack

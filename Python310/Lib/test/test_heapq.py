@@ -4,7 +4,7 @@ import random
 import unittest
 import doctest
 
-from test import support
+from sudoku_rivi import support
 from test.support import import_helper
 from unittest import TestCase, skipUnless
 from operator import itemgetter

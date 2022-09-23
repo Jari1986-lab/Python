@@ -7,7 +7,7 @@ import sys
 import inspect
 import unittest
 import re
-from test import support
+from sudoku_rivi import support
 from test.support import Error, captured_output, cpython_only, ALWAYS_EQ
 from test.support.os_helper import TESTFN, unlink
 from test.support.script_helper import assert_python_ok

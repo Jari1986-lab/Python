@@ -1,6 +1,6 @@
 import unittest
 import textwrap
-from test import support, mock_socket
+from sudoku_rivi import support, mock_socket
 from test.support import socket_helper
 from test.support import warnings_helper
 import socket

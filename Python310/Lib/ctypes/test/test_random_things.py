@@ -1,6 +1,6 @@
 from ctypes import *
 import contextlib
-from test import support
+from sudoku_rivi import support
 import unittest
 import sys
 

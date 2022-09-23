@@ -9,7 +9,7 @@ from tempfile import TemporaryFile
 import csv
 import gc
 import pickle
-from test import support
+from sudoku_rivi import support
 from test.support import warnings_helper
 from itertools import permutations
 from textwrap import dedent

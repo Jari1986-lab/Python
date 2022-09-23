@@ -9,7 +9,7 @@ import warnings
 import weakref
 from textwrap import dedent
 
-from test import support
+from sudoku_rivi import support
 
 def to_tuple(t):
     if t is None or isinstance(t, (str, int, complex)):

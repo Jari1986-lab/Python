@@ -9,7 +9,7 @@ import re
 import sys
 import unittest
 from http.client import HTTPException
-from test import support
+from sudoku_rivi import support
 from io import BytesIO
 
 class TestBase:

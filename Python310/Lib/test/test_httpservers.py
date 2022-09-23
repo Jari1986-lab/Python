@@ -29,7 +29,7 @@ from unittest import mock
 from io import BytesIO
 
 import unittest
-from test import support
+from sudoku_rivi import support
 from test.support import os_helper
 from test.support import threading_helper
 

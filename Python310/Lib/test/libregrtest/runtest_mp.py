@@ -11,7 +11,7 @@ import time
 import traceback
 from typing import NamedTuple, NoReturn, Literal, Any
 
-from test import support
+from sudoku_rivi import support
 from test.support import os_helper
 
 from test.libregrtest.cmdline import Namespace

@@ -2,7 +2,7 @@ import unittest
 import math
 import string
 import sys
-from test import support
+from sudoku_rivi import support
 from test.support import import_helper
 from test.support import warnings_helper
 # Skip this test if the _testcapi module isn't available.

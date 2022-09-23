@@ -25,7 +25,7 @@ import unittest
 import sqlite3 as sqlite
 import weakref
 import functools
-from test import support
+from sudoku_rivi import support
 
 class RegressionTests(unittest.TestCase):
     def setUp(self):

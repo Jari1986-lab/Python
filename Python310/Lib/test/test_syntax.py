@@ -1274,7 +1274,7 @@ Corner-cases that used to crash:
 import re
 import unittest
 
-from test import support
+from sudoku_rivi import support
 
 class SyntaxTestCase(unittest.TestCase):
 
@@ -1587,7 +1587,7 @@ while 1:
 
 def test_main():
     support.run_unittest(SyntaxTestCase)
-    from test import test_syntax
+    from sudoku_rivi import test_syntax
     support.run_doctest(test_syntax, verbosity=True)
 
 if __name__ == "__main__":

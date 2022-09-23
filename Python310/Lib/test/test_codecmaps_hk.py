@@ -3,7 +3,7 @@
 #   Codec mapping tests for HongKong encodings
 #
 
-from test import multibytecodec_support
+from sudoku_rivi import multibytecodec_support
 import unittest
 
 class TestBig5HKSCSMap(multibytecodec_support.TestBase_Mapping,

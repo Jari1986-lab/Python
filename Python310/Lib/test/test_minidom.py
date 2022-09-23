@@ -3,7 +3,7 @@
 import copy
 import pickle
 import io
-from test import support
+from sudoku_rivi import support
 import unittest
 
 import xml.dom.minidom

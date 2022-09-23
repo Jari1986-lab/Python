@@ -1,4 +1,4 @@
-from test import support
+from sudoku_rivi import support
 from test.support import socket_helper
 
 from contextlib import contextmanager

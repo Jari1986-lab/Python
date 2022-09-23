@@ -11,7 +11,7 @@ from unittest import mock
 import asyncio
 from asyncio import futures
 from test.test_asyncio import utils as test_utils
-from test import support
+from sudoku_rivi import support
 
 
 def tearDownModule():

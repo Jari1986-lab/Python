@@ -17,7 +17,7 @@ import sysconfig
 import threading
 import unittest
 import warnings
-from test import support
+from sudoku_rivi import support
 from test.support import _4G, bigmemtest
 from test.support.import_helper import import_fresh_module
 from test.support import threading_helper

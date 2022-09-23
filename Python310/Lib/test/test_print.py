@@ -2,7 +2,7 @@ import unittest
 import sys
 from io import StringIO
 
-from test import support
+from sudoku_rivi import support
 
 NotDefined = object()
 

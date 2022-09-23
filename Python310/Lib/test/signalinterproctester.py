@@ -4,7 +4,7 @@ import subprocess
 import sys
 import time
 import unittest
-from test import support
+from sudoku_rivi import support
 
 
 class SIGUSR1Exception(Exception):

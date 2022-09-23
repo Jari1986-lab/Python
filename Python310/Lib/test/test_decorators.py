@@ -1,4 +1,4 @@
-from test import support
+from sudoku_rivi import support
 import unittest
 from types import MethodType
 

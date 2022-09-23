@@ -7,7 +7,7 @@ import unittest
 from asyncio import proactor_events
 from itertools import cycle, islice
 from test.test_asyncio import utils as test_utils
-from test import support
+from sudoku_rivi import support
 from test.support import socket_helper
 
 

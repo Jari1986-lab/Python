@@ -6,7 +6,7 @@ be run.
 """
 
 import warnings
-from test import support
+from sudoku_rivi import support
 from test.support import warnings_helper
 
 with warnings_helper.check_warnings(

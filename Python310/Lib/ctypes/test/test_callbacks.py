@@ -1,6 +1,6 @@
 import functools
 import unittest
-from test import support
+from sudoku_rivi import support
 
 from ctypes import *
 from ctypes.test import need_symbol

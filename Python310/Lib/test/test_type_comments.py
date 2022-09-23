@@ -1,7 +1,7 @@
 import ast
 import sys
 import unittest
-from test import support
+from sudoku_rivi import support
 
 
 funcdef = """\

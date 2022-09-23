@@ -9,7 +9,7 @@ import threading
 import time
 import unittest
 
-from test import support
+from sudoku_rivi import support
 from test.support import import_helper
 from test.support import script_helper
 

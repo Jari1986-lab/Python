@@ -2,7 +2,7 @@
 
 import logging
 import socket
-from test import support
+from sudoku_rivi import support
 import unittest
 import weakref
 from unittest import mock
@@ -15,7 +15,7 @@ import asyncio
 from asyncio import log
 from asyncio import protocols
 from asyncio import sslproto
-from test import support
+from sudoku_rivi import support
 from test.test_asyncio import utils as test_utils
 from test.test_asyncio import functional as func_tests
 

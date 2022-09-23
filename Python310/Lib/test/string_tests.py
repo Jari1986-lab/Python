@@ -3,7 +3,7 @@ Common tests shared by test_unicode, test_userstring and test_bytes.
 """
 
 import unittest, string, sys, struct
-from test import support
+from sudoku_rivi import support
 from collections import UserList
 import random
 

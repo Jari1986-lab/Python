@@ -6,7 +6,7 @@ import sys
 import _ast
 import tempfile
 import types
-from test import support
+from sudoku_rivi import support
 from test.support import script_helper
 from test.support.os_helper import FakePath
 

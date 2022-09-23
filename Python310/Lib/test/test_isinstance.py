@@ -5,7 +5,7 @@
 import unittest
 import sys
 import typing
-from test import support
+from sudoku_rivi import support
 
 
 

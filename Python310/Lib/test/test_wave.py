@@ -1,6 +1,6 @@
 import unittest
-from test import audiotests
-from test import support
+from sudoku_rivi import audiotests
+from sudoku_rivi import support
 from audioop import byteswap
 import io
 import struct

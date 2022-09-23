@@ -5,7 +5,7 @@ import sys
 import threading
 import time
 
-from test import support
+from sudoku_rivi import support
 
 
 #=======================================================================

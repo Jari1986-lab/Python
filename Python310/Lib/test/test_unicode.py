@@ -17,7 +17,7 @@ import unittest
 import warnings
 from test.support import import_helper
 from test.support import warnings_helper
-from test import support, string_tests
+from sudoku_rivi import support, string_tests
 from test.support.script_helper import assert_python_failure
 
 # Error handling (bad decoder return)

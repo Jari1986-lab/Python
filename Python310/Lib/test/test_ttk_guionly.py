@@ -1,5 +1,5 @@
 import unittest
-from test import support
+from sudoku_rivi import support
 from test.support import import_helper
 
 # Skip this test if _tkinter wasn't built.

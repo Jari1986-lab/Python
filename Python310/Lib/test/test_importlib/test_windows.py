@@ -6,7 +6,7 @@ import re
 import sys
 import unittest
 import warnings
-from test import support
+from sudoku_rivi import support
 from test.support import import_helper
 from contextlib import contextmanager
 from .util import temp_module

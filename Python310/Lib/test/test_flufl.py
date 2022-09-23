@@ -1,6 +1,6 @@
 import __future__
 import unittest
-from test import support
+from sudoku_rivi import support
 
 
 class FLUFLTests(unittest.TestCase):

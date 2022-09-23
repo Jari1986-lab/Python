@@ -2,7 +2,7 @@ import unittest
 import pickle
 import sys
 
-from test import support
+from sudoku_rivi import support
 from test.support import import_helper
 
 

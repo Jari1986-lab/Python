@@ -18,7 +18,7 @@ from test.libregrtest.runtest import (
 from test.libregrtest.setup import setup_tests
 from test.libregrtest.pgo import setup_pgo_tests
 from test.libregrtest.utils import removepy, count, format_duration, printlist
-from test import support
+from sudoku_rivi import support
 from test.support import os_helper
 
 

@@ -1,7 +1,7 @@
 # Tests for rich comparisons
 
 import unittest
-from test import support
+from sudoku_rivi import support
 
 import operator
 

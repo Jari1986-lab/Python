@@ -9,7 +9,7 @@ import time
 import traceback
 import unittest
 
-from test import support
+from sudoku_rivi import support
 from test.support import os_helper
 from test.libregrtest.cmdline import Namespace
 from test.libregrtest.save_env import saved_test_environment

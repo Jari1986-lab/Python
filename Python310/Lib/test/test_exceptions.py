@@ -17,7 +17,7 @@ from test.support import (captured_stderr, check_impl_detail,
 from test.support.import_helper import import_module
 from test.support.os_helper import TESTFN, unlink
 from test.support.warnings_helper import check_warnings
-from test import support
+from sudoku_rivi import support
 
 
 class NaiveException(Exception):

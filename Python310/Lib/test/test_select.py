@@ -5,7 +5,7 @@ import subprocess
 import sys
 import textwrap
 import unittest
-from test import support
+from sudoku_rivi import support
 
 @unittest.skipIf((sys.platform[:3]=='win'),
                  "can't easily test on this system")

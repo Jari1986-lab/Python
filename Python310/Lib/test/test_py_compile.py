@@ -9,7 +9,7 @@ import sys
 import tempfile
 import unittest
 
-from test import support
+from sudoku_rivi import support
 from test.support import os_helper, script_helper
 
 

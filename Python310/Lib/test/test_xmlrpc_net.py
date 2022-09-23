@@ -1,6 +1,6 @@
 import collections.abc
 import unittest
-from test import support
+from sudoku_rivi import support
 
 import xmlrpc.client as xmlrpclib
 

@@ -5,7 +5,7 @@ import tempfile
 import unittest
 from collections import namedtuple
 from io import StringIO, BytesIO
-from test import support
+from sudoku_rivi import support
 from test.support import warnings_helper
 
 class HackedSysModule:

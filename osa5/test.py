@@ -1,50 +1,22 @@
-def kumpi_voitti(pelilauta: list):
-    pelaaja1 = int(0)
-    pelaaja2 = int(0)
-    for i in range(len(pelilauta)):
-        for j in range(len(pelilauta[i])):
-            if pelilauta[i][j] == 1:
-                pelaaja1 += 1
-            elif pelilauta[i][j] == 2:
-                pelaaja2 += 1
-    if pelaaja1 > pelaaja2:
-        return 1
-    elif pelaaja2 > pelaaja1:
-        return 2
-    else:
-        return 0
-'''
-m= [[0, 0, 1, 0, 1, 0, 0, 0, 0],
-    [0, 0, 1, 0, 0, 0, 0, 2, 0],
-    [0, 0, 0, 0, 0, 0, 0, 2, 0],
-    [0, 0, 2, 0, 0, 0, 0, 2, 0],
-    [0, 0, 2, 0, 0, 0, 0, 2, 0],
-    [0, 0, 2, 0, 2, 0, 0, 0, 0],
-    [0, 0, 2, 0, 0, 0, 0, 0, 0],
-    [0, 0, 0, 0, 0, 0, 0, 0, 0],
-    [0, 0, 0, 0, 0, 0, 0, 0, 0]]
-m= [[0, 0, 1, 0, 1, 0, 0, 0, 0],
-    [0, 0, 1, 0, 0, 0, 0, 2, 0],
-    [0, 0, 0, 0, 0, 0, 0, 2, 0],
-    [0, 0, 2, 0, 0, 0, 0, 1, 0],
-    [0, 0, 2, 0, 0, 0, 0, 2, 0],
-    [0, 0, 2, 0, 2, 0, 0, 0, 0],
-    [0, 0, 1, 0, 0, 0, 0, 0, 0],
-    [1, 0, 0, 0, 0, 0, 0, 0, 0],
-    [0, 0, 0, 0, 1, 0, 0, 0, 0]]
-'''
-m= [[0, 0, 1, 0, 1, 0, 0, 0, 0],
-    [0, 0, 1, 0, 0, 0, 0, 2, 0],
-    [0, 0, 0, 0, 0, 0, 0, 1, 0],
-    [0, 0, 2, 0, 0, 0, 0, 2, 0],
-    [0, 0, 2, 0, 0, 0, 0, 2, 0],
-    [0, 0, 1, 0, 1, 0, 0, 0, 0],
-    [0, 0, 2, 0, 0, 0, 0, 0, 0],
-    [1, 0, 0, 0, 0, 0, 0, 0, 0],
-    [0, 0, 0, 0, 1, 0, 0, 0, 0]]
+def rivi_oikein(sudoku: list, rivi_nro: int):
+    test = sudoku[rivi_nro]
+    for i [0] for i in test]
+    for i in range(1, 10):
+        if test.count(i) > 1:
+            return False
+    return True
 
-voittaja = kumpi_voitti(m)
-if kumpi_voitti== 0:
-    print("tasapeli")
-else:
-    print("pelaaja" + str(voittaja) +" voittaja")
+
+sudoku =  [[9, 0, 0, 0, 8, 0, 3, 0, 0],
+          [2, 0, 0, 2, 5, 0, 7, 0, 0],
+          [0, 2, 0, 3, 0, 0, 0, 0, 4],
+          [2, 9, 4, 0, 0, 0, 0, 0, 0],
+          [0, 0, 0, 7, 3, 0, 5, 6, 0],
+          [7, 0, 5, 0, 6, 0, 4, 0, 0],
+          [0, 0, 7, 8, 0, 3, 9, 0, 0],
+          [0, 0, 1, 0, 0, 0, 0, 0, 3],
+          [3, 0, 0, 0, 0, 0, 0, 0, 2]]
+
+
+print(rivi_oikein(sudoku, 0))
+print(rivi_oikein(sudoku, 1))

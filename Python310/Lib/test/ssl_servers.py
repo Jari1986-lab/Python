@@ -8,7 +8,7 @@ import urllib.parse
 from http.server import (HTTPServer as _HTTPServer,
     SimpleHTTPRequestHandler, BaseHTTPRequestHandler)
 
-from test import support
+from sudoku_rivi import support
 from test.support import socket_helper
 
 here = os.path.dirname(__file__)

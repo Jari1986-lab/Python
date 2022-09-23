@@ -1,6 +1,6 @@
 import unittest.test
 
-from test import support
+from sudoku_rivi import support
 
 
 def load_tests(*_):

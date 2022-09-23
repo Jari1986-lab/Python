@@ -6,7 +6,7 @@ import sys
 import os
 from functools import cmp_to_key
 
-from test import support, seq_tests
+from sudoku_rivi import support, seq_tests
 from test.support import ALWAYS_EQ, NEVER_EQ
 
 

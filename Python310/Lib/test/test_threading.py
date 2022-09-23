@@ -22,8 +22,8 @@ import textwrap
 import traceback
 
 from unittest import mock
-from test import lock_tests
-from test import support
+from sudoku_rivi import lock_tests
+from sudoku_rivi import support
 
 
 # Between fork() and exec(), only async-safe functions are allowed (issues

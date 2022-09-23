@@ -21,7 +21,7 @@ try:
 except ImportError:
     _testbuffer = None
 
-from test import support
+from sudoku_rivi import support
 from test.support import os_helper
 from test.support import (
     TestFailed, run_with_locale, no_tracing,

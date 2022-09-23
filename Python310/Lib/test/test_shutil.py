@@ -29,7 +29,7 @@ try:
 except ImportError:
     posix = None
 
-from test import support
+from sudoku_rivi import support
 from test.support import os_helper
 from test.support.os_helper import TESTFN, FakePath
 

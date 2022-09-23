@@ -1,4 +1,4 @@
-from test import support
+from sudoku_rivi import support
 from test.support import import_helper, cpython_only
 gdbm = import_helper.import_module("dbm.gnu") #skip if not supported
 import unittest

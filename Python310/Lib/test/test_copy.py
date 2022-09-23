@@ -7,7 +7,7 @@ import abc
 from operator import le, lt, ge, gt, eq, ne
 
 import unittest
-from test import support
+from sudoku_rivi import support
 
 order_comparisons = le, lt, ge, gt
 equality_comparisons = eq, ne

@@ -1,5 +1,5 @@
 # Run the tests in Programs/_testembed.c (tests for the CPython embedding APIs)
-from test import support
+from sudoku_rivi import support
 from test.support import import_helper
 from test.support import os_helper
 import unittest

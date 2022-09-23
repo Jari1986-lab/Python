@@ -29,12 +29,12 @@ from test.support import MISSING_C_DOCSTRINGS, ALWAYS_EQ
 from test.support.import_helper import DirsOnSysPath
 from test.support.os_helper import TESTFN
 from test.support.script_helper import assert_python_ok, assert_python_failure
-from test import inspect_fodder as mod
-from test import inspect_fodder2 as mod2
-from test import support
-from test import inspect_stock_annotations
-from test import inspect_stringized_annotations
-from test import inspect_stringized_annotations_2
+from sudoku_rivi import inspect_fodder as mod
+from sudoku_rivi import inspect_fodder2 as mod2
+from sudoku_rivi import support
+from sudoku_rivi import inspect_stock_annotations
+from sudoku_rivi import inspect_stringized_annotations
+from sudoku_rivi import inspect_stringized_annotations_2
 
 from test.test_import import _ready_to_import
 

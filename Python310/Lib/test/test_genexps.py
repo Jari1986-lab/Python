@@ -283,8 +283,8 @@ else:
     __test__ = {'doctests' : doctests}
 
 def test_main(verbose=None):
-    from test import support
-    from test import test_genexps
+    from sudoku_rivi import support
+    from sudoku_rivi import test_genexps
     support.run_doctest(test_genexps, verbose)
 
     # verify reference counting

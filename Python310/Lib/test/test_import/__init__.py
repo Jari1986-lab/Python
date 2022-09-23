@@ -144,7 +144,7 @@ class ImportTests(unittest.TestCase):
     def test_double_const(self):
         # Another brief digression to test the accuracy of manifest float
         # constants.
-        from test import double_const  # don't blink -- that *was* the test
+        from sudoku_rivi import double_const  # don't blink -- that *was* the test
 
     def test_import(self):
         def test_with_extension(ext):
@@ -252,7 +252,7 @@ class ImportTests(unittest.TestCase):
 
     def test_import_name_binding(self):
         # import x.y.z binds x in the current namespace
-        import test as x
+        import sudoku_rivi as x
         import test.support
         self.assertIs(x, test, x.__name__)
         self.assertTrue(hasattr(test.support, "__file__"))

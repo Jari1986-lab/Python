@@ -1,5 +1,5 @@
 import unittest
-from test import support
+from sudoku_rivi import support
 from itertools import *
 import weakref
 from decimal import Decimal

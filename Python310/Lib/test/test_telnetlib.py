@@ -4,7 +4,7 @@ import telnetlib
 import threading
 import contextlib
 
-from test import support
+from sudoku_rivi import support
 from test.support import socket_helper
 import unittest
 

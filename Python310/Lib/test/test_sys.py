@@ -9,7 +9,7 @@ import subprocess
 import sys
 import sysconfig
 import test.support
-from test import support
+from sudoku_rivi import support
 from test.support import os_helper
 from test.support.script_helper import assert_python_ok, assert_python_failure
 from test.support import threading_helper

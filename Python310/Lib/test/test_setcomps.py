@@ -149,8 +149,8 @@ __test__ = {'doctests' : doctests}
 
 def test_main(verbose=None):
     import sys
-    from test import support
-    from test import test_setcomps
+    from sudoku_rivi import support
+    from sudoku_rivi import test_setcomps
     support.run_doctest(test_setcomps, verbose)
 
     # verify reference counting

@@ -2,7 +2,7 @@ import math
 import os.path
 import sys
 import textwrap
-from test import support
+from sudoku_rivi import support
 
 
 def format_duration(seconds):

@@ -2,7 +2,7 @@ import io
 import textwrap
 import unittest
 
-from test import test_tools
+from sudoku_rivi import test_tools
 from typing import Dict, Any
 from tokenize import TokenInfo, NAME, NEWLINE, NUMBER, OP
 

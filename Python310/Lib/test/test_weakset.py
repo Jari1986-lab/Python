@@ -5,7 +5,7 @@ from collections import UserString as ustr
 from collections.abc import Set, MutableSet
 import gc
 import contextlib
-from test import support
+from sudoku_rivi import support
 
 
 class Foo:

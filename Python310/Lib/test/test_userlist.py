@@ -1,7 +1,7 @@
 # Check every path through every method of UserList
 
 from collections import UserList
-from test import list_tests
+from sudoku_rivi import list_tests
 import unittest
 
 class UserListTest(list_tests.CommonTest):

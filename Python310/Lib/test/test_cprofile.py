@@ -7,7 +7,7 @@ import unittest
 import cProfile
 from test.test_profile import ProfileTest, regenerate_expected_output
 from test.support.script_helper import assert_python_failure
-from test import support
+from sudoku_rivi import support
 
 
 class CProfileTest(ProfileTest):

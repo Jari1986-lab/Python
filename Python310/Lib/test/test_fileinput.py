@@ -30,7 +30,7 @@ from test.support.os_helper import TESTFN
 from test.support.os_helper import unlink as safe_unlink
 from test.support import os_helper
 from test.support import warnings_helper
-from test import support
+from sudoku_rivi import support
 from unittest import mock
 
 

@@ -3,7 +3,7 @@
 
 import sys
 import unittest
-from test import support
+from sudoku_rivi import support
 
 class PropertyBase(Exception):
     pass

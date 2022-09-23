@@ -1932,7 +1932,7 @@ class ChecklineTests(unittest.TestCase):
 
 
 def load_tests(*args):
-    from test import test_pdb
+    from sudoku_rivi import test_pdb
     suites = [
         unittest.makeSuite(PdbTestCase),
         unittest.makeSuite(ChecklineTests),

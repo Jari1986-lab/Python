@@ -7,9 +7,9 @@ import threading
 import unittest
 import weakref
 
-from test import support
+from sudoku_rivi import support
 from test.support import threading_helper
-from test import lock_tests
+from sudoku_rivi import lock_tests
 
 
 class ModuleLockAsRLockTests:

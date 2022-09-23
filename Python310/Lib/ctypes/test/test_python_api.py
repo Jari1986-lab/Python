@@ -1,6 +1,6 @@
 from ctypes import *
 import unittest, sys
-from test import support
+from sudoku_rivi import support
 
 ################################################################
 # This section should be moved into ctypes\__init__.py, when it's ready.

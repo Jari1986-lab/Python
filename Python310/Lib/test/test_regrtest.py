@@ -17,8 +17,8 @@ import tempfile
 import textwrap
 import time
 import unittest
-from test import libregrtest
-from test import support
+from sudoku_rivi import libregrtest
+from sudoku_rivi import support
 from test.support import os_helper
 from test.libregrtest import utils, setup
 

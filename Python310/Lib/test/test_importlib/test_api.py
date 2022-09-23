@@ -6,7 +6,7 @@ machinery = test_util.import_importlib('importlib.machinery')
 
 import os.path
 import sys
-from test import support
+from sudoku_rivi import support
 from test.support import import_helper
 from test.support import os_helper
 import types

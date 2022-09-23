@@ -9,7 +9,7 @@ import sys
 import unittest
 import weakref
 from collections.abc import MutableMapping
-from test import mapping_tests, support
+from sudoku_rivi import mapping_tests, support
 from test.support import import_helper
 
 

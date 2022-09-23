@@ -23,7 +23,7 @@ import weakref
 
 from functools import partial
 from itertools import product, islice
-from test import support
+from sudoku_rivi import support
 from test.support import os_helper
 from test.support import warnings_helper
 from test.support import findfile, gc_collect, swap_attr, swap_item

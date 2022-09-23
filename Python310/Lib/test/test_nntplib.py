@@ -10,7 +10,7 @@ import os.path
 import re
 import threading
 
-from test import support
+from sudoku_rivi import support
 from test.support import socket_helper
 from nntplib import NNTP, GroupInfo
 from unittest.mock import patch

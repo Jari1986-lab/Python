@@ -4,7 +4,7 @@
 """
 
 import unittest
-from test import support
+from sudoku_rivi import support
 import os, sys
 
 if not hasattr(os, 'popen'):

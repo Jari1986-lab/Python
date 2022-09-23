@@ -33,7 +33,7 @@ from asyncio import format_helpers
 from asyncio import futures
 from asyncio import tasks
 from asyncio.log import logger
-from test import support
+from sudoku_rivi import support
 from test.support import threading_helper
 
 

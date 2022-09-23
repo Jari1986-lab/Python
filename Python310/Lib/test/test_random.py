@@ -9,7 +9,7 @@ import test.support
 
 from functools import partial
 from math import log, exp, pi, fsum, sin, factorial
-from test import support
+from sudoku_rivi import support
 from fractions import Fraction
 from collections import abc, Counter
 

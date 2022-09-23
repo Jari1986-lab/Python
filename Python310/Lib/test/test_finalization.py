@@ -25,7 +25,7 @@ except ImportError:
                 raise TypeError('requires _testcapi.without_gc')
         return C
 
-from test import support
+from sudoku_rivi import support
 
 
 class NonGCSimpleBase:

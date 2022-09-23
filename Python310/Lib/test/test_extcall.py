@@ -521,7 +521,7 @@ Same with keyword only args:
 """
 
 import sys
-from test import support
+from sudoku_rivi import support
 
 def test_main():
     support.run_doctest(sys.modules[__name__], True)

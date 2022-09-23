@@ -11,7 +11,7 @@ import threading
 import unittest
 import weakref
 
-from test import support
+from sudoku_rivi import support
 from test.support import threading_helper
 
 

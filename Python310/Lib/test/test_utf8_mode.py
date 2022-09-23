@@ -7,7 +7,7 @@ import subprocess
 import sys
 import textwrap
 import unittest
-from test import support
+from sudoku_rivi import support
 from test.support.script_helper import assert_python_ok, assert_python_failure
 from test.support import os_helper
 

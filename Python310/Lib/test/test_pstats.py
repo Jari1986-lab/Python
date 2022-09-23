@@ -1,6 +1,6 @@
 import unittest
 
-from test import support
+from sudoku_rivi import support
 from io import StringIO
 from pstats import SortKey
 

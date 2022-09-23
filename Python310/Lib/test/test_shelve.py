@@ -5,7 +5,7 @@ import shelve
 import glob
 import pickle
 
-from test import support
+from sudoku_rivi import support
 from test.support import os_helper
 from collections.abc import MutableMapping
 from test.test_dbm import dbm_iterator
@@ -188,7 +188,7 @@ class TestShelveFileBase(TestShelveBase):
         dbm._defaultmod = self.dbm_mod
 
 
-from test import mapping_tests
+from sudoku_rivi import mapping_tests
 
 for proto in range(pickle.HIGHEST_PROTOCOL + 1):
     bases = (TestShelveInMemBase, mapping_tests.BasicTestMappingProtocol)

@@ -9,7 +9,7 @@ import os
 import stat
 import unittest
 import dbm.dumb as dumbdbm
-from test import support
+from sudoku_rivi import support
 from test.support import os_helper
 from functools import partial
 

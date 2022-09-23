@@ -1,5 +1,5 @@
 import unittest
-from test import support
+from sudoku_rivi import support
 from ctypes import *
 
 import _ctypes_test

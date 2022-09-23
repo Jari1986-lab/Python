@@ -1,5 +1,5 @@
 import netrc, os, unittest, sys, tempfile, textwrap
-from test import support
+from sudoku_rivi import support
 from test.support import os_helper
 
 

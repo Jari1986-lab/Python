@@ -8,7 +8,7 @@ import email.message
 import re
 import io
 import tempfile
-from test import support
+from sudoku_rivi import support
 from test.support import os_helper
 import unittest
 import textwrap

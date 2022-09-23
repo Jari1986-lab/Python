@@ -1,7 +1,7 @@
 import functools
 import unittest
 import tkinter
-from test import support
+from sudoku_rivi import support
 from tkinter.test.support import AbstractTkTest, AbstractDefaultRootTest
 
 support.requires('gui')

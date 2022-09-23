@@ -3,7 +3,7 @@ from __future__ import unicode_literals, print_function
 
 import sys
 import unittest
-from test import support
+from sudoku_rivi import support
 
 
 class TestMultipleFeatures(unittest.TestCase):

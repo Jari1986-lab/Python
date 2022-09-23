@@ -2,7 +2,7 @@
 # Copyright 2012-2013 by Larry Hastings.
 # Licensed to the PSF under a contributor agreement.
 
-from test import support, test_tools
+from sudoku_rivi import support, test_tools
 from test.support import os_helper
 from unittest import TestCase
 import collections

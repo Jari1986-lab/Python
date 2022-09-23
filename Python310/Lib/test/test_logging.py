@@ -42,7 +42,7 @@ import struct
 import sys
 import tempfile
 from test.support.script_helper import assert_python_ok, assert_python_failure
-from test import support
+from sudoku_rivi import support
 from test.support import os_helper
 from test.support import socket_helper
 from test.support import threading_helper

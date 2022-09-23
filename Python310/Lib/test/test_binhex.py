@@ -4,7 +4,7 @@
    Based on an original test by Roger E. Masse.
 """
 import unittest
-from test import support
+from sudoku_rivi import support
 from test.support import import_helper
 from test.support import os_helper
 from test.support import warnings_helper

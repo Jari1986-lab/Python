@@ -10,7 +10,7 @@ import unittest
 import unittest.mock
 import tarfile
 
-from test import support
+from sudoku_rivi import support
 from test.support import os_helper
 from test.support import script_helper
 

@@ -1,5 +1,5 @@
 import unittest
-from test import test_tools
+from sudoku_rivi import test_tools
 
 test_tools.skip_if_missing('peg_generator')
 with test_tools.imports_under_tool('peg_generator'):

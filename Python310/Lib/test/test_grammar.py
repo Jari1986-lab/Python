@@ -16,8 +16,8 @@ from sys import *
 import test.ann_module as ann_module
 import typing
 from collections import ChainMap
-from test import ann_module2
-import test
+from sudoku_rivi import ann_module2
+import sudoku_rivi
 
 # These are shared with test_tokenize and other test modules.
 #
@@ -471,7 +471,7 @@ class GrammarTests(unittest.TestCase):
         self.assertEqual(CC.__annotations__['xx'], 'ANNOT')
 
     def test_var_annot_module_semantics(self):
-        self.assertEqual(test.__annotations__, {})
+        self.assertEqual(sudoku_rivi.__annotations__, {})
         self.assertEqual(ann_module.__annotations__,
                      {1: 2, 'x': int, 'y': str, 'f': typing.Tuple[int, int], 'u': int | float})
         self.assertEqual(ann_module.M.__annotations__,

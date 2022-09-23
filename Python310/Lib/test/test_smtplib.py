@@ -17,7 +17,7 @@ import textwrap
 import threading
 
 import unittest
-from test import support, mock_socket
+from sudoku_rivi import support, mock_socket
 from test.support import hashlib_helper
 from test.support import socket_helper
 from test.support import threading_helper

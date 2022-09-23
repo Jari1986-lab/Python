@@ -7,7 +7,7 @@ import select
 import socket
 import tempfile
 import threading
-from test import support
+from sudoku_rivi import support
 
 
 class FunctionalTestCaseMixin:

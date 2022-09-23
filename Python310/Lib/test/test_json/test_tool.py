@@ -5,7 +5,7 @@ import textwrap
 import unittest
 import subprocess
 
-from test import support
+from sudoku_rivi import support
 from test.support import os_helper
 from test.support.script_helper import assert_python_ok
 

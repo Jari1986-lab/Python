@@ -32,8 +32,8 @@ import typing
 import weakref
 import types
 
-from test import mod_generics_cache
-from test import _typed_dict_helper
+from sudoku_rivi import mod_generics_cache
+from sudoku_rivi import _typed_dict_helper
 
 
 class BaseTestCase(TestCase):
@@ -2971,7 +2971,7 @@ else:
 
 # Definitions needed for features introduced in Python 3.6
 
-from test import ann_module, ann_module2, ann_module3, ann_module5, ann_module6
+from sudoku_rivi import ann_module, ann_module2, ann_module3, ann_module5, ann_module6
 from typing import AsyncContextManager
 
 class A:

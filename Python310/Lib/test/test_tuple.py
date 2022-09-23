@@ -1,4 +1,4 @@
-from test import support, seq_tests
+from sudoku_rivi import support, seq_tests
 import unittest
 
 import gc

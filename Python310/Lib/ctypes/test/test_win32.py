@@ -2,7 +2,7 @@
 
 from ctypes import *
 import unittest, sys
-from test import support
+from sudoku_rivi import support
 
 import _ctypes_test
 

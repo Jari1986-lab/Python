@@ -29,7 +29,7 @@ from test.support import threading_helper
 from test.support import (reap_children, captured_output, captured_stdout,
                           captured_stderr, requires_docstrings)
 from test.support.os_helper import (TESTFN, rmtree, unlink)
-from test import pydoc_mod
+from sudoku_rivi import pydoc_mod
 
 
 class nonascii:
@@ -1035,7 +1035,7 @@ class TestDescriptions(unittest.TestCase):
 
     def test_module(self):
         # Check that pydocfodder module can be described
-        from test import pydocfodder
+        from sudoku_rivi import pydocfodder
         doc = pydoc.render_doc(pydocfodder)
         self.assertIn("pydocfodder", doc)
 

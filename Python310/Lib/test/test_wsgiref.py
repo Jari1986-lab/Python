@@ -1,5 +1,5 @@
 from unittest import mock
-from test import support
+from sudoku_rivi import support
 from test.support import socket_helper
 from test.support import warnings_helper
 from test.test_httpservers import NoLogRequestHandler

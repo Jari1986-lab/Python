@@ -4,7 +4,7 @@
 
 import collections.abc
 import unittest
-from test import support
+from sudoku_rivi import support
 from test.support import os_helper
 from test.support import _2G
 import weakref

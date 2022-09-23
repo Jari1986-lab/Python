@@ -3,7 +3,7 @@
 
 """Tests for the raise statement."""
 
-from test import support
+from sudoku_rivi import support
 import sys
 import types
 import unittest

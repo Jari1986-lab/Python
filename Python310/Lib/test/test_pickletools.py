@@ -1,6 +1,6 @@
 import pickle
 import pickletools
-from test import support
+from sudoku_rivi import support
 from test.pickletester import AbstractPickleTests
 import doctest
 import unittest

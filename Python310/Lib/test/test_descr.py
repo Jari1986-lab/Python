@@ -13,7 +13,7 @@ import warnings
 import weakref
 
 from copy import deepcopy
-from test import support
+from sudoku_rivi import support
 
 try:
     import _testcapi

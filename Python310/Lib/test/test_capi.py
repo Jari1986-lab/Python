@@ -15,7 +15,7 @@ import threading
 import time
 import unittest
 import weakref
-from test import support
+from sudoku_rivi import support
 from test.support import MISSING_C_DOCSTRINGS
 from test.support import import_helper
 from test.support import threading_helper

@@ -16,7 +16,7 @@ import codecs
 # Register a search function which knows about our codec
 def codec_search_function(encoding):
     if encoding == 'testcodec':
-        from test import testcodec
+        from sudoku_rivi import testcodec
         return tuple(testcodec.getregentry())
     return None
 

@@ -29,7 +29,7 @@ import types
 import unittest
 import uuid
 import warnings
-from test import support
+from sudoku_rivi import support
 from test.support import import_helper
 from test.support import os_helper
 from test.support import socket_helper
@@ -964,7 +964,7 @@ class UtimeTests(unittest.TestCase):
             os.utime(self.fname, ns=(get_bad_int((1, 2, 3)), 1))
 
 
-from test import mapping_tests
+from sudoku_rivi import mapping_tests
 
 class EnvironTests(mapping_tests.BasicTestMappingProtocol):
     """check that os.environ object conform to mapping protocol"""

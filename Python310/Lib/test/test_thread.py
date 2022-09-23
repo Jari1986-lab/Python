@@ -1,13 +1,13 @@
 import os
 import unittest
 import random
-from test import support
+from sudoku_rivi import support
 from test.support import threading_helper
 import _thread as thread
 import time
 import weakref
 
-from test import lock_tests
+from sudoku_rivi import lock_tests
 
 NUMTASKS = 10
 NUMTRIPS = 3

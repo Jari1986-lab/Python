@@ -4,7 +4,7 @@ import re
 import sys
 import types
 import pickle
-from test import support
+from sudoku_rivi import support
 from test.support import import_helper
 import test.test_importlib.util
 

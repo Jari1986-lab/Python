@@ -1,4 +1,4 @@
-from test import support
+from sudoku_rivi import support
 from test.support import import_helper
 # Skip test if _tkinter wasn't built.
 import_helper.import_module('_tkinter')

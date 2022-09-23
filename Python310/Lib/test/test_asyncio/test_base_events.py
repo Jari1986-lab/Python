@@ -14,7 +14,7 @@ import asyncio
 from asyncio import base_events
 from asyncio import constants
 from test.test_asyncio import utils as test_utils
-from test import support
+from sudoku_rivi import support
 from test.support.script_helper import assert_python_ok
 from test.support import os_helper
 from test.support import socket_helper

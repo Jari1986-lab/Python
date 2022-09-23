@@ -9,7 +9,7 @@ import unittest
 from asyncio import base_events
 from asyncio import constants
 from unittest import mock
-from test import support
+from sudoku_rivi import support
 from test.support import os_helper
 from test.support import socket_helper
 from test.test_asyncio import utils as test_utils

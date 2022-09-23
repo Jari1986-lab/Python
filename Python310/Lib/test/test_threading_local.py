@@ -1,7 +1,7 @@
 import sys
 import unittest
 from doctest import DocTestSuite
-from test import support
+from sudoku_rivi import support
 from test.support import threading_helper
 import weakref
 import gc

@@ -12,7 +12,7 @@ import _winapi
 
 import asyncio
 from asyncio import windows_utils
-from test import support
+from sudoku_rivi import support
 
 
 def tearDownModule():

@@ -11,7 +11,7 @@ active threads survive in the child after a fork(); this is an error.
 
 import os, sys, time, unittest
 import threading
-from test import support
+from sudoku_rivi import support
 from test.support import threading_helper
 
 

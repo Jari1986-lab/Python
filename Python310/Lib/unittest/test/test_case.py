@@ -11,7 +11,7 @@ import inspect
 import types
 
 from copy import deepcopy
-from test import support
+from sudoku_rivi import support
 
 import unittest
 

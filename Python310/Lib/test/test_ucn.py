@@ -11,7 +11,7 @@ import ast
 import unittest
 import unicodedata
 
-from test import support
+from sudoku_rivi import support
 from http.client import HTTPException
 
 try:

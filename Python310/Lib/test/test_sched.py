@@ -3,7 +3,7 @@ import sched
 import threading
 import time
 import unittest
-from test import support
+from sudoku_rivi import support
 from test.support import threading_helper
 
 
